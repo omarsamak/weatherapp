@@ -4,11 +4,6 @@ buildscript {
     repositories {
         google()
         jcenter()
-        mavenLocal()
-        mavenCentral()
-        maven {
-            url "https://maven.google.com"
-        }
 
     }
     dependencies {
@@ -22,6 +17,7 @@ buildscript {
 }
 
 ext {
+    navVersion = '2.3.3'
     roomVersion = '2.2.6'
     archLifecycleVersion = '2.2.0'
     retrofitVersion = '2.9.0'
